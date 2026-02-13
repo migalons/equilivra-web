@@ -1,32 +1,25 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { useRouter, usePathname } from "@/i18n/routing";
-import { ChangeEvent, useTransition } from "react";
+import { Link, usePathname } from "@/i18n/routing";
 import clsx from "clsx";
 
 export default function LanguageSwitcher() {
     const locale = useLocale();
-    const router = useRouter();
     const pathname = usePathname();
-    const [isPending, startTransition] = useTransition();
-
-    const handleChange = (e: ChangeEvent<HTMLSelectElement>) => {
-        const nextLocale = e.target.value;
-        startTransition(() => {
-            router.replace(pathname, { locale: nextLocale });
-        });
-    };
+    const locales = ["es", "en", "pt", "ast"];
 
     return (
         <div className="relative">
             <select
-                defaultValue={locale}
-                onChange={handleChange}
-                disabled={isPending}
+                value={locale}
+                onChange={(e) => {
+                    const nextLocale = e.target.value;
+                    const link = document.querySelector(`a[href*="/${nextLocale}${pathname}"]`) as HTMLAnchorElement;
+                    if (link) link.click();
+                }}
                 className={clsx(
-                    "bg-transparent py-2 pl-3 pr-8 text-sm font-medium text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-0 cursor-pointer",
-                    isPending && "opacity-50"
+                    "bg-transparent py-2 pl-3 pr-8 text-sm font-medium text-gray-700 dark:text-gray-200 focus:outline-none focus:ring-0 cursor-pointer"
                 )}
             >
                 <option value="es" className="text-black">ES</option>
@@ -34,6 +27,16 @@ export default function LanguageSwitcher() {
                 <option value="pt" className="text-black">PT</option>
                 <option value="ast" className="text-black">AST</option>
             </select>
+            {/* Hidden links for navigation */}
+            {locales.map((loc) => (
+                <Link
+                    key={loc}
+                    href={pathname}
+                    locale={loc}
+                    style={{ display: "none" }}
+                    data-locale={loc}
+                />
+            ))}
         </div>
     );
 }
