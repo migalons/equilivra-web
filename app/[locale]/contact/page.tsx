@@ -33,7 +33,7 @@ export default async function Contact({ params }: { params: Promise<{ locale: st
                             </div>
                             <div>
                                 <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">{t("info.phone")}</h3>
-                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">+34 91.039.45.59<br />+34 628.683.666</p>
+                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">+34 91.039.45.59</p>
                             </div>
                         </div>
                         <div className="flex gap-4 items-start">

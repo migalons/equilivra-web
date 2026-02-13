@@ -53,9 +53,15 @@ export default async function LocaleLayout({
                         __html: `
                             (function() {
                                 try {
-                                    var theme = localStorage.getItem('theme') || 'system';
-                                    var isDark = theme === 'dark' || (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
-                                    document.documentElement.classList.toggle('dark', isDark);
+                                    var theme = localStorage.getItem('theme');
+                                    var supportDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                                    if (theme === 'dark' || (!theme && supportDark)) {
+                                        document.documentElement.classList.add('dark');
+                                        document.documentElement.style.colorScheme = 'dark';
+                                    } else {
+                                        document.documentElement.classList.remove('dark');
+                                        document.documentElement.style.colorScheme = 'light';
+                                    }
                                 } catch (e) {}
                             })();
                         `,
