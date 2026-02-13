@@ -1,0 +1,125 @@
+{
+    "Index": {
+        "title": "Equilivra Engineers - Critical Infrastructure",
+        "metaDescription": "Engineering consultancy specializing in Critical Infrastructure, Commissioning, and Data Centers."
+    },
+    "Navigation": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About Us",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "title": "Value-Added Engineering in Critical Infrastructures",
+        "subtitle": "Over 15 years of experience in the Data Center sector, ensuring operational continuity and minimizing risks.",
+        "cta": "Contact Us"
+    },
+    "ServiceHighlights": {
+        "title": "Our Services",
+        "subtitle": "Comprehensive solutions for Data Centers and Unique Buildings.",
+        "commissioning": {
+            "title": "Commissioning",
+            "description": "Validation and verification of critical installations to ensure proper operation and efficiency."
+        },
+        "projectManagement": {
+            "title": "Project Management",
+            "description": "Comprehensive project management, from design to execution, ensuring deadlines and costs."
+        },
+        "energyEfficiency": {
+            "title": "Energy Efficiency",
+            "description": "Audits and energy management systems (ISO 50001) to optimize consumption and reduce costs."
+        }
+    },
+    "TrustSection": {
+        "title": "Certified Excellence & Global Reach",
+        "locations": "Projects in Madrid, Barcelona, Lisbon, Frankfurt, Manchester",
+        "standards": "We comply with the highest standards: ISO 9001, ISO 14001, ISO 50001"
+    },
+    "About": {
+        "title": "About Equilivra",
+        "intro": "Equilivra is an engineering consultancy specialized in Critical Infrastructure, focused on risk analysis and ensuring operational continuity for its clients.",
+        "mission": {
+            "title": "Our Mission",
+            "description": "To provide value-added technical consultancy services, understanding client needs and applying the most appropriate procedures."
+        },
+        "quote": "At Equilivra, we understand that consultancy services must ultimately provide tangible results.",
+        "author": "Mario Cavero Pérez - Technical Director"
+    },
+    "Contact": {
+        "title": "Contact Us",
+        "subtitle": "We are here to help. Send us a message or visit us.",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Send Message",
+            "submitting": "Sending...",
+            "success_title": "Message Sent!",
+            "success_message": "Thank you for contacting us. We will get back to you shortly.",
+            "send_another": "Send another message",
+            "message_placeholder": "How can we help you?"
+        },
+        "info": {
+            "address": "Address",
+            "phone": "Phone",
+            "email": "Email"
+        }
+    },
+    "ServicesPage": {
+        "title": "Our Services",
+        "intro": "Specialized engineering solutions for the complete lifecycle of your infrastructure.",
+        "commissioning": {
+            "title": "Commissioning",
+            "description": "We ensure that systems and components are designed, installed, tested, operated, and maintained according to the owner's operational requirements.",
+            "items": [
+                "Commissioning Process Management",
+                "Commissioning Manager",
+                "Testing and Commissioning",
+                "Post-Occupancy Commissioning",
+                "Existing Building Commissioning / Remediations"
+            ]
+        },
+        "projectManagement": {
+            "title": "Project Management",
+            "description": "Comprehensive project coordination and management to meet scope, time, and cost objectives.",
+            "items": [
+                "Project definition and presentation",
+                "Planning and objective setting",
+                "Task supervision",
+                "Cost and schedule control",
+                "Change and solution implementation"
+            ]
+        },
+        "energy": {
+            "title": "Energy Management & Sustainability",
+            "description": "Optimization of energy use and regulatory compliance to reduce costs and improve sustainability.",
+            "items": [
+                "Energy Audits (UNE-EN 16247)",
+                "Energy Management Systems Implementation (ISO 50001)",
+                "Life Cycle Analysis",
+                "Measurement and verification of savings"
+            ]
+        },
+        "maintenance": {
+            "title": "Maintenance Management",
+            "description": "Definition, organization, and control of maintenance activities to ensure availability and reliability.",
+            "items": [
+                "Definition of Maintenance Policy",
+                "Preparation of Technical Specifications",
+                "Technical Audits / Survey",
+                "Asset Management and CMMS",
+                "Service Level Agreements (SLA)"
+            ]
+        },
+        "risk": {
+            "title": "Continuity & Risk",
+            "description": "Risk analysis and management to ensure business continuity of critical infrastructure.",
+            "items": [
+                "Risk Analysis and Single Points of Failure (SPOF)",
+                "Contingency and Emergency Plans",
+                "Disaster Recovery Plans",
+                "Training and operating procedures"
+            ]
+        }
+    }
+}

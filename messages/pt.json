@@ -1,0 +1,125 @@
+{
+    "Index": {
+        "title": "Equilivra Engenheiros - Infraestruturas Críticas",
+        "metaDescription": "Consultoria de engenharia especializada em Infraestrutura Crítica, Commissioning e Data Centers."
+    },
+    "Navigation": {
+        "home": "Início",
+        "services": "Serviços",
+        "about": "Sobre Nós",
+        "contact": "Contato"
+    },
+    "Hero": {
+        "title": "Engenharia de Valor Agregado em Infraestruturas Críticas",
+        "subtitle": "Mais de 15 anos de experiência no setor de Data Center, garantindo a continuidade operacional e minimizando riscos.",
+        "cta": "Contate-nos"
+    },
+    "ServiceHighlights": {
+        "title": "Nossos Serviços",
+        "subtitle": "Soluções abrangentes para Data Centers e Edifícios Singulares.",
+        "commissioning": {
+            "title": "Commissioning",
+            "description": "Validação e verificação de instalações críticas para garantir o funcionamento correto e eficiência."
+        },
+        "projectManagement": {
+            "title": "Project Management",
+            "description": "Gestão integral de projetos, desde o design até a execução, garantindo prazos e custos."
+        },
+        "energyEfficiency": {
+            "title": "Eficiência Energética",
+            "description": "Auditorias e sistemas de gestão energética (ISO 50001) para otimizar o consumo e reduzir custos."
+        }
+    },
+    "TrustSection": {
+        "title": "Excelência Certificada e Alcance Global",
+        "locations": "Projetos em Madrid, Barcelona, Lisboa, Frankfurt, Manchester",
+        "standards": "Cumprimos os mais altos padrões: ISO 9001, ISO 14001, ISO 50001"
+    },
+    "About": {
+        "title": "Sobre a Equilivra",
+        "intro": "A Equilivra é uma consultoria de engenharia especializada em Infraestrutura Crítica, focada na análise de risco e garantia da continuidade operacional dos seus clientes.",
+        "mission": {
+            "title": "Nossa Missão",
+            "description": "Oferecer serviços de consultoria técnica de valor agregado, entendendo as necessidades do cliente e aplicando os procedimentos mais adequados."
+        },
+        "quote": "Na Equilivra, entendemos que os serviços de consultoria devem, em última análise, fornecer resultados tangíveis.",
+        "author": "Mario Cavero Pérez - Diretor Técnico"
+    },
+    "Contact": {
+        "title": "Fale Conosco",
+        "subtitle": "Estamos aqui para ajudar. Envie-nos uma mensagem ou visite-nos.",
+        "form": {
+            "name": "Nome",
+            "email": "E-mail",
+            "message": "Mensagem",
+            "submit": "Enviar Mensagem",
+            "submitting": "Enviando...",
+            "success_title": "Mensagem Enviada!",
+            "success_message": "Obrigado por nos contactar. Entraremos em contacto em breve.",
+            "send_another": "Enviar outra mensagem",
+            "message_placeholder": "Como podemos ajudar?"
+        },
+        "info": {
+            "address": "Endereço",
+            "phone": "Telefone",
+            "email": "E-mail"
+        }
+    },
+    "ServicesPage": {
+        "title": "Nossos Serviços",
+        "intro": "Soluções de engenharia especializadas para o ciclo de vida completo das suas infraestruturas.",
+        "commissioning": {
+            "title": "Commissioning",
+            "description": "Garantimos que os sistemas e componentes sejam projetados, instalados, testados, operados e mantidos de acordo com os requisitos operacionais do proprietário.",
+            "items": [
+                "Gestão do Processo de Commissioning",
+                "Commissioning Manager",
+                "Testes e Comissionamento",
+                "Comissionamento Pós-Ocupação",
+                "Comissionamento em Edifícios Existentes / Remediações"
+            ]
+        },
+        "projectManagement": {
+            "title": "Project Management",
+            "description": "Coordenação e gestão integral de projetos para cumprir os objetivos de escopo, prazo e custo.",
+            "items": [
+                "Definição e apresentação do projeto",
+                "Planejamento e definição de objetivos",
+                "Supervisão de tarefas",
+                "Controle de custos e prazos",
+                "Implementação de mudanças e soluções"
+            ]
+        },
+        "energy": {
+            "title": "Gestão Energética e Sustentabilidade",
+            "description": "Otimização do uso de energia e conformidade regulatória para reduzir custos e melhorar a sustentabilidade.",
+            "items": [
+                "Auditorias Energéticas (UNE-EN 16247)",
+                "Implementação de Sistemas de Gestão de Energia (ISO 50001)",
+                "Análise de Ciclo de Vida",
+                "Medição e verificação de economias"
+            ]
+        },
+        "maintenance": {
+            "title": "Gestão de Manutenção",
+            "description": "Definição, organização e controle das atividades de manutenção para garantir disponibilidade e confiabilidade.",
+            "items": [
+                "Definição da Política de Manutenção",
+                "Elaboração de Especificações Técnicas",
+                "Auditorias Técnicas / Survey",
+                "Gestão de Ativos e GMAO",
+                "Acordos de Nível de Serviço (SLA)"
+            ]
+        },
+        "risk": {
+            "title": "Continuidade e Risco",
+            "description": "Análise e gestão de riscos para garantir a continuidade operacional de infraestruturas críticas.",
+            "items": [
+                "Análise de Riscos e Pontos Únicos de Falha (SPOF)",
+                "Planos de Contingência e Emergência",
+                "Planos de Recuperação de Desastres",
+                "Treinamento e procedimentos operacionais"
+            ]
+        }
+    }
+}

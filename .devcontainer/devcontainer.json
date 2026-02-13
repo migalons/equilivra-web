@@ -1,0 +1,17 @@
+{
+    "name": "Equilivra CI Reproduction",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "bradlc.vscode-tailwindcss"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install",
+    "remoteUser": "vscode"
+}

@@ -1,0 +1,125 @@
+{
+    "Index": {
+        "title": "Equilivra Inxeneiros - Infraestruturas Críticas",
+        "metaDescription": "Consultora d'inxeniería especializada en Infraestrutura Crítica, Commissioning y Data Centers."
+    },
+    "Navigation": {
+        "home": "Entamu",
+        "services": "Servicios",
+        "about": "Sobre Nós",
+        "contact": "Contactu"
+    },
+    "Hero": {
+        "title": "Inxeniería de Valor Añadíu en Infraestruturas Críticas",
+        "subtitle": "Más de 15 anos d'esperiencia no sector del Data Center, garantizando a continuidá operativa y amenorgando riesgos.",
+        "cta": "Contáctanos"
+    },
+    "ServiceHighlights": {
+        "title": "Os Nossos Servicios",
+        "subtitle": "Soluciois integráis pa Data Centers y Edificación Singular.",
+        "commissioning": {
+            "title": "Commissioning",
+            "description": "Validación y verificación d'instalaciois críticas p'asegurar o seu correuto funcionamento y eficiencia."
+        },
+        "projectManagement": {
+            "title": "Project Management",
+            "description": "Xestión integral de proyeutos, dende o diseño hasta a execución, garantizando plazos y costes."
+        },
+        "energyEfficiency": {
+            "title": "Eficiencia Enerxética",
+            "description": "Auditorías y sistemas de xestión enerxética (ISO 50001) p'optimizar o consumo y reducir costes."
+        }
+    },
+    "TrustSection": {
+        "title": "Excelencia Certificada y Alcance Global",
+        "locations": "Proyeutos en Madrid, Barcelona, Lisboa, Frankfurt, Manchester",
+        "standards": "Cumplimos cos más altos estándares: ISO 9001, ISO 14001, ISO 50001"
+    },
+    "About": {
+        "title": "Sobre Equilivra",
+        "intro": "Equilivra é una consultora d'inxeniería especializada en Infraestrutura Crítica, orientada a analizar o riesgo y garantizar a continuidá operativa dos sous clientes.",
+        "mission": {
+            "title": "A Nosa Misión",
+            "description": "Ufrir servicios de consultoría técnica de valor añadíu, entendendo as necesidades del cliente y aplicando os procedementos más afayaízos."
+        },
+        "quote": "En Equilivra entendemos que os servicios de consultoría deben dar, en última instancia y como resultáu final, feitos tanxibles.",
+        "author": "Mario Cavero Pérez - Direutor Técnico"
+    },
+    "Contact": {
+        "title": "Contáctanos",
+        "subtitle": "Tamos eiquí p'ayudarte. Mándanos un mensaxe ou visítanos.",
+        "form": {
+            "name": "Nome",
+            "email": "Corréu Eleutrónico",
+            "message": "Mensaxe",
+            "submit": "Mandar Mensaxe",
+            "submitting": "Mandando...",
+            "success_title": "¡Mensaxe Mandáu!",
+            "success_message": "Gracies por contautar con nós. Respondémoste lo antes posible.",
+            "send_another": "Mandar otru mensaxe",
+            "message_placeholder": "¿En qué podemos ayudate?"
+        },
+        "info": {
+            "address": "Direición",
+            "phone": "Teléfanu",
+            "email": "Email"
+        }
+    },
+    "ServicesPage": {
+        "title": "Os Nossos Servicios",
+        "intro": "Soluciois d'inxeniería especializadas po ciclo de vida completo das súas infraestruturas.",
+        "commissioning": {
+            "title": "Commissioning",
+            "description": "Aseguramos que os sistemas y componentes d'un edificio ou planta industrial estén diseñados, instalados, probados, operados y mantenidos d'acuerdo cas necesidades y requisitos operativos del propietario.",
+            "items": [
+                "Xestión del Procesu de Commissioning",
+                "Commissioning Manager",
+                "Pruebas y puesta en marcha",
+                "Commissioning Post Ocupacional",
+                "Commissioning en Edificios Existentes / Remediations"
+            ]
+        },
+        "projectManagement": {
+            "title": "Project Management",
+            "description": "Coordinación y xestión integral de proyeutos pa cumplir cos oxetivos d'alcance, tempu y coste.",
+            "items": [
+                "Definición y presentación del proyeuto",
+                "Planificación y establecimiento d'oxetivos",
+                "Supervisión de xeres",
+                "Control de costes y plazos",
+                "Implementación de cambios y soluciois"
+            ]
+        },
+        "energy": {
+            "title": "Xestión Enerxética y Sostenibilidá",
+            "description": "Optimización del usu da enerxía y cumplimiento normativo pa reducir costes y ameyorar a sostenibilidá.",
+            "items": [
+                "Auditorías Enerxéticas (UNE-EN 16247)",
+                "Implantación de Sistemas de Xestión da Enerxía (ISO 50001)",
+                "Análisis de Ciclo de Vida",
+                "Medición y verificación d'aforros"
+            ]
+        },
+        "maintenance": {
+            "title": "Xestión de Mantenimiento",
+            "description": "Definición, organización y control das actividades de mantenimiento pa garantizar a disponibilidá y fiabilidá.",
+            "items": [
+                "Definición da Política de Mantenimiento",
+                "Elaboración de Pliegos de Condiciois Técnicas",
+                "Auditorías Técnicas / Survey",
+                "Xestión d'activos y GMAO",
+                "Acuerdos de Nivel de Servicio (SLA)"
+            ]
+        },
+        "risk": {
+            "title": "Continuidá y Riesgo",
+            "description": "Análisis y xestión de riesgos pa garantizar a continuidá operativa d'infraestruturas críticas.",
+            "items": [
+                "Análisis de riesgos y puntos únicos de fallu (SPOF)",
+                "Planes de Contingencia y Emerxencia",
+                "Planes de Recuperación ante Desastres",
+                "Formación y procedementos d'operación"
+            ]
+        }
+    }
+}
