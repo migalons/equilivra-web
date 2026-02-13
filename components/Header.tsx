@@ -26,8 +26,9 @@ export default function Header() {
     }, []);
 
     // Determine visual state
+    const isDarkMode = mounted && resolvedTheme === "dark";
     const isLightMode = mounted && resolvedTheme === "light";
-    const showSolidHeader = isScrolled || isLightMode;
+    const showSolidHeader = isScrolled || mounted;
 
     const navLinks = [
         { key: "home", href: "/" },
@@ -49,24 +50,18 @@ export default function Header() {
                 <div className="flex items-center justify-between">
                     <Link href="/" className="flex items-center gap-2">
                         <div className="flex items-center">
-                            {/* Dark Mode Logo */}
-                            <img
-                                src="/equilivra-web/images/logo-horizontal-dark.png"
-                                alt="Equilivra Logo"
-                                className={clsx(
-                                    "h-12 w-auto object-contain", // Slightly smaller logo for better fit in fixed h-20
-                                    isLightMode ? "hidden" : "block"
-                                )}
-                            />
-
-                            {/* Light Mode Logo */}
+                            {/* Logo for Light Theme (based on user feedback) */}
                             <img
                                 src="/equilivra-web/images/logo-horizontal-light.png"
                                 alt="Equilivra Logo"
-                                className={clsx(
-                                    "h-12 w-auto object-contain",
-                                    isLightMode ? "block" : "hidden"
-                                )}
+                                className="h-12 w-auto object-contain block dark:hidden"
+                            />
+
+                            {/* Logo for Dark Theme (based on user feedback) */}
+                            <img
+                                src="/equilivra-web/images/logo-horizontal-dark.png"
+                                alt="Equilivra Logo"
+                                className="h-12 w-auto object-contain hidden dark:block"
                             />
                         </div>
                     </Link>

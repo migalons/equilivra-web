@@ -7,7 +7,12 @@ export default function RootPage() {
     const router = useRouter();
 
     useEffect(() => {
-        router.replace("/es");
+        // Detect browser language and redirect
+        const browserLang = typeof navigator !== 'undefined' ? navigator.language.split("-")[0] : 'es';
+        const supportedLocales = ["es", "en", "pt", "ast"];
+        const targetLocale = supportedLocales.includes(browserLang) ? browserLang : "es";
+
+        router.replace(`/${targetLocale}`);
     }, [router]);
 
     return null;
