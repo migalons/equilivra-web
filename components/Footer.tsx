@@ -11,9 +11,8 @@ export default function Footer() {
                     <div>
                         <div className="flex items-center gap-2 mb-4">
                             <img
-                                src="/images/logo-horizontal-dark.png"
+                                src="/equilivra-web/images/logo-horizontal-dark.png"
                                 alt="Equilivra Logo"
-                                // className="h-12 w-auto object-contain"
                                 className="h-12 w-auto object-contain brightness-0 invert"
                             />
                         </div>

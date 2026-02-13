@@ -51,7 +51,7 @@ export default function Header() {
                         <div className="flex items-center">
                             {/* Dark Mode Logo */}
                             <img
-                                src="/images/logo-horizontal-dark.png"
+                                src="/equilivra-web/images/logo-horizontal-dark.png"
                                 alt="Equilivra Logo"
                                 className={clsx(
                                     "h-12 w-auto object-contain", // Slightly smaller logo for better fit in fixed h-20
@@ -61,7 +61,7 @@ export default function Header() {
 
                             {/* Light Mode Logo */}
                             <img
-                                src="/images/logo-horizontal-light.png"
+                                src="/equilivra-web/images/logo-horizontal-light.png"
                                 alt="Equilivra Logo"
                                 className={clsx(
                                     "h-12 w-auto object-contain",
