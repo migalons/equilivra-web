@@ -40,3 +40,4 @@ next-env.d.ts
 Dossier_Equilivra_ES-2.pdf
 extract_icon.py
 # If there's an original .git that was nested, but it should be gone now.
+test-out/
