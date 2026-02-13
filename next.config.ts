@@ -4,6 +4,7 @@ import { NextConfig } from 'next';
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
+  basePath: '/equilivra-web',
   output: 'export',
   images: {
     unoptimized: true,
