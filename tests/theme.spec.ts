@@ -28,6 +28,12 @@ test.describe('Theme Stability', () => {
         // Check if the light logo is hidden
         const lightLogo = page.locator('img.theme-logo-light');
         await expect(lightLogo).toBeHidden({ timeout: 10000 });
+
+        // Check if the toggle icon matches (dark mode -> sun icon should be visible)
+        const sunIcon = page.locator('.sun-icon');
+        const moonIcon = page.locator('.moon-icon');
+        await expect(sunIcon).toBeVisible({ timeout: 10000 });
+        await expect(moonIcon).toBeHidden({ timeout: 10000 });
     });
 
     test('should respect system light mode preference on initial load', async ({ page }) => {
@@ -48,6 +54,12 @@ test.describe('Theme Stability', () => {
         // Check if the dark logo is hidden
         const darkLogo = page.locator('img.theme-logo-dark');
         await expect(darkLogo).toBeHidden({ timeout: 10000 });
+
+        // Check if the toggle icon matches (light mode -> moon icon should be visible)
+        const sunIcon = page.locator('.sun-icon');
+        const moonIcon = page.locator('.moon-icon');
+        await expect(sunIcon).toBeHidden({ timeout: 10000 });
+        await expect(moonIcon).toBeVisible({ timeout: 10000 });
     });
 
     test('should persist theme selection across navigations', async ({ page }) => {
