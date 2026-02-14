@@ -62,6 +62,48 @@ test.describe('Theme Stability', () => {
         await expect(moonIcon).toBeVisible({ timeout: 10000 });
     });
 
+    test('should change theme on the very first click', async ({ page }) => {
+        // Set system preference to light
+        await page.emulateMedia({ colorScheme: 'light' });
+        await page.goto('es');
+
+        // Wait for hydration
+        await page.waitForLoadState('networkidle');
+
+        const html = page.locator('html');
+        await expect(html).not.toHaveClass(/dark/);
+
+        const toggleButton = page.getByLabel('Toggle theme');
+        await expect(toggleButton).toBeVisible();
+
+        // First click
+        await toggleButton.click();
+
+        // Should be dark now
+        await expect(html).toHaveClass(/dark/);
+    });
+
+    test('should change theme on the very first click (dark mode)', async ({ page }) => {
+        // Set system preference to dark
+        await page.emulateMedia({ colorScheme: 'dark' });
+        await page.goto('es');
+
+        // Wait for hydration
+        await page.waitForLoadState('networkidle');
+
+        const html = page.locator('html');
+        await expect(html).toHaveClass(/dark/);
+
+        const toggleButton = page.getByLabel('Toggle theme');
+        await expect(toggleButton).toBeVisible();
+
+        // First click
+        await toggleButton.click();
+
+        // Should be light now (no dark class)
+        await expect(html).not.toHaveClass(/dark/);
+    });
+
     test('should persist theme selection across navigations', async ({ page }) => {
         await page.goto('es');
 
