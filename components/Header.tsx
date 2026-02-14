@@ -50,18 +50,15 @@ export default function Header() {
                 <div className="flex items-center justify-between">
                     <Link href="/" className="flex items-center gap-2">
                         <div className="flex items-center">
-                            {/* Logo for Light Theme (based on user feedback) */}
                             <img
                                 src="/equilivra-web/images/logo-horizontal-light.png"
                                 alt="Equilivra Logo"
-                                className="h-12 w-auto object-contain block dark:hidden"
+                                className="h-12 w-auto object-contain theme-logo-light"
                             />
-
-                            {/* Logo for Dark Theme (based on user feedback) */}
                             <img
                                 src="/equilivra-web/images/logo-horizontal-dark.png"
                                 alt="Equilivra Logo"
-                                className="h-12 w-auto object-contain hidden dark:block"
+                                className="h-12 w-auto object-contain theme-logo-dark"
                             />
                         </div>
                     </Link>
@@ -72,10 +69,7 @@ export default function Header() {
                             <Link
                                 key={link.key}
                                 href={link.href}
-                                className={clsx(
-                                    "text-sm font-semibold leading-6 transition-colors hover:text-red-500",
-                                    isLightMode ? "text-gray-900" : "text-white"
-                                )}
+                                className="text-sm font-semibold leading-6 transition-colors hover:text-red-500 text-gray-900 dark:text-white"
                             >
                                 {t(link.key)}
                             </Link>
@@ -86,10 +80,7 @@ export default function Header() {
 
                     {/* Mobile Menu Button */}
                     <button
-                        className={clsx(
-                            "md:hidden p-2",
-                            isLightMode ? "text-gray-900" : "text-white"
-                        )}
+                        className="md:hidden p-2 text-gray-900 dark:text-white"
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                     >
                         {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

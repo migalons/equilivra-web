@@ -53,14 +53,13 @@ export default async function LocaleLayout({
                         __html: `
                             (function() {
                                 try {
+                                    var darkModeMql = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
                                     var theme = localStorage.getItem('theme');
-                                    var supportDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                                    if (theme === 'dark' || (!theme && supportDark)) {
+                                    var isDark = theme === 'dark' || (!theme && darkModeMql && darkModeMql.matches);
+                                    if (isDark) {
                                         document.documentElement.classList.add('dark');
-                                        document.documentElement.style.colorScheme = 'dark';
                                     } else {
                                         document.documentElement.classList.remove('dark');
-                                        document.documentElement.style.colorScheme = 'light';
                                     }
                                 } catch (e) {}
                             })();

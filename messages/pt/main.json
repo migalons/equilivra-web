@@ -31,7 +31,7 @@
         }
     },
     "TrustSection": {
-        "title": "Excelência Certificada e Alcance Global",
+        "title": "Excelencia Certificada e Alcance Global",
         "locations": "Projetos em Madrid, Barcelona, Lisboa, Frankfurt, Manchester",
         "standards": "Cumprimos os mais altos padrões: ISO 9001, ISO 14001, ISO 50001"
     },
@@ -42,28 +42,8 @@
             "title": "Nossa Missão",
             "description": "Oferecer serviços de consultoria técnica de valor agregado, entendendo as necessidades do cliente e aplicando os procedimentos mais adequados."
         },
-        "quote": "Foder com duas mulheres ao mesmo tempo...., homem…., está tudo bem, tens de tentar uma vez na vida. Mas três já…..… é deitar dinheiro fora.",
+        "quote": "Na Equilivra, entendemos que os serviços de consultoria devem, em última análise, fornecer resultados tangíveis.",
         "author": "Mario Cavero Pérez - Diretor Técnico"
-    },
-    "Contact": {
-        "title": "Fale Conosco",
-        "subtitle": "Estamos aqui para ajudar. Envie-nos uma mensagem ou visite-nos.",
-        "form": {
-            "name": "Nome",
-            "email": "E-mail",
-            "message": "Mensagem",
-            "submit": "Enviar Mensagem",
-            "submitting": "Enviando...",
-            "success_title": "Mensagem Enviada!",
-            "success_message": "Obrigado por nos contactar. Entraremos em contacto em breve.",
-            "send_another": "Enviar outra mensagem",
-            "message_placeholder": "Como podemos ajudar?"
-        },
-        "info": {
-            "address": "Endereço",
-            "phone": "Telefone",
-            "email": "E-mail"
-        }
     },
     "ServicesPage": {
         "title": "Nossos Serviços",
@@ -76,7 +56,7 @@
                 "Commissioning Manager",
                 "Testes e Comissionamento",
                 "Comissionamento Pós-Ocupação",
-                "Comissionamento em Edifícios Existentes / Remediações"
+                "Comissionamento em Edifícios Existentes / Remediations"
             ]
         },
         "projectManagement": {
@@ -87,16 +67,16 @@
                 "Planejamento e definição de objetivos",
                 "Supervisão de tarefas",
                 "Controle de custos e prazos",
-                "Implementação de mudanças e soluções"
+                "Implementación de mudanças e soluções"
             ]
         },
         "energy": {
             "title": "Gestão Energética e Sustentabilidade",
             "description": "Otimização do uso de energia e conformidade regulatória para reduzir custos e melhorar a sustentabilidade.",
             "items": [
-                "Auditorias Energéticas (UNE-EN 16247)",
-                "Implementação de Sistemas de Gestão de Energia (ISO 50001)",
-                "Análise de Ciclo de Vida",
+                "Auditorías Energéticas (UNE-EN 16247)",
+                "Implementación de Sistemas de Gestão de Energia (ISO 50001)",
+                "Análisis de Ciclo de Vida",
                 "Medição e verificação de economias"
             ]
         },
@@ -104,19 +84,19 @@
             "title": "Gestão de Manutenção",
             "description": "Definição, organização e controle das atividades de manutenção para garantir disponibilidade e confiabilidade.",
             "items": [
-                "Definição da Política de Manutenção",
+                "Definição da Política de Mantenimiento",
                 "Elaboração de Especificações Técnicas",
-                "Auditorias Técnicas / Survey",
+                "Auditorías Técnicas / Survey",
                 "Gestão de Ativos e GMAO",
-                "Acordos de Nível de Serviço (SLA)"
+                "Acordos de Nível de Servicio (SLA)"
             ]
         },
         "risk": {
             "title": "Continuidade e Risco",
             "description": "Análise e gestão de riscos para garantir a continuidade operacional de infraestruturas críticas.",
             "items": [
-                "Análise de Riscos e Pontos Únicos de Falha (SPOF)",
-                "Planos de Contingência e Emergência",
+                "Análisis de Riscos e Pontos Únicos de Falha (SPOF)",
+                "Planos de Contingencia e Emergência",
                 "Planos de Recuperação de Desastres",
                 "Treinamento e procedimentos operacionais"
             ]

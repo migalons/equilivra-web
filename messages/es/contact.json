@@ -1,0 +1,25 @@
+{
+    "Contact": {
+        "title": "Contáctanos",
+        "subtitle": "Estamos aquí para ayudarte. Envíanos un mensaje o visítanos.",
+        "form": {
+            "name": "Nombre",
+            "email": "Correo Electrónico",
+            "message": "Mensaje",
+            "submit": "Enviar Mensaje",
+            "submitting": "Enviando...",
+            "success_title": "¡Mensaje Enviado!",
+            "success_message": "Gracias por contactar con nosotros. Te responderemos lo antes posible.",
+            "send_another": "Enviar otro mensaje",
+            "message_placeholder": "¿En qué podemos ayudarte?"
+        },
+        "info": {
+            "address": "Dirección",
+            "phone": "Teléfono",
+            "email": "Email",
+            "address_value": "C/ Luis Carlos Vázquez 16, oficina izquierda\n28043 Madrid",
+            "phone_value": "+34 91.039.45.59",
+            "email_value": "info@equilivra.com"
+        }
+    }
+}

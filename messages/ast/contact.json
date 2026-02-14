@@ -1,0 +1,25 @@
+{
+    "Contact": {
+        "title": "Contáctanos",
+        "subtitle": "Tamos eiquí p'ayudarte. Mándanos un mensaxe ou visítanos.",
+        "form": {
+            "name": "Nome",
+            "email": "Corréu Eleutrónico",
+            "message": "Mensaxe",
+            "submit": "Mandar Mensaxe",
+            "submitting": "Mandando...",
+            "success_title": "¡Mensaxe Mandáu!",
+            "success_message": "Gracies por contautar con nós. Respondémoste lo antes posible.",
+            "send_another": "Mandar otru mensaxe",
+            "message_placeholder": "¿En qué podemos ayudate?"
+        },
+        "info": {
+            "address": "Direición",
+            "phone": "Teléfanu",
+            "email": "Email",
+            "address_value": "C/ Luis Carlos Vázquez 16, oficina izquierda\n28043 Madrid",
+            "phone_value": "+34 91.039.45.59",
+            "email_value": "info@equilivra.com"
+        }
+    }
+}

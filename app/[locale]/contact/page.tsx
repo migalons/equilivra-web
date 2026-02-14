@@ -24,7 +24,7 @@ export default async function Contact({ params }: { params: Promise<{ locale: st
                             </div>
                             <div>
                                 <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">{t("info.address")}</h3>
-                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">C/ Luis Carlos Vázquez 16, oficina izquierda<br />28043 Madrid</p>
+                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300 whitespace-pre-line">{t("info.address_value")}</p>
                             </div>
                         </div>
                         <div className="flex gap-4 items-start">
@@ -33,7 +33,7 @@ export default async function Contact({ params }: { params: Promise<{ locale: st
                             </div>
                             <div>
                                 <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">{t("info.phone")}</h3>
-                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">+34 91.039.45.59</p>
+                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">{t("info.phone_value")}</p>
                             </div>
                         </div>
                         <div className="flex gap-4 items-start">
@@ -42,7 +42,7 @@ export default async function Contact({ params }: { params: Promise<{ locale: st
                             </div>
                             <div>
                                 <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">{t("info.email")}</h3>
-                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">info@equilivra.com</p>
+                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">{t("info.email_value")}</p>
                             </div>
                         </div>
                     </div>

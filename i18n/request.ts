@@ -10,8 +10,18 @@ export default getRequestConfig(async ({ requestLocale }) => {
         ? routing.defaultLocale
         : locale;
 
+    // Load messages from all JSON files in the locale directory
+    // Note: We're doing a simple merge. In a production app you might want deeper merging.
+    const mainMessages = (await import(`../messages/${activeLocale}/main.json`)).default;
+    const contactMessages = (await import(`../messages/${activeLocale}/contact.json`)).default;
+
+    const messages = {
+        ...mainMessages,
+        ...contactMessages
+    };
+
     return {
         locale: activeLocale,
-        messages: (await import(`../messages/${activeLocale}.json`)).default
+        messages
     };
 });

@@ -42,28 +42,8 @@
             "title": "A Nosa Misión",
             "description": "Ufrir servicios de consultoría técnica de valor añadíu, entendendo as necesidades del cliente y aplicando os procedementos más afayaízos."
         },
-        "quote": "Follar con dos muyeres a la vez...., hombre…., ta bien, hay que probalo una vez na vida. Pero tres ya…..… ye tirar el dineru.",
+        "quote": "En Equilivra entendemos que os servicios de consultoría deben dar, en última instancia y como resultáu final, feitos tanxibles.",
         "author": "Mario Cavero Pérez - Direutor Técnico"
-    },
-    "Contact": {
-        "title": "Contáctanos",
-        "subtitle": "Tamos eiquí p'ayudarte. Mándanos un mensaxe ou visítanos.",
-        "form": {
-            "name": "Nome",
-            "email": "Corréu Eleutrónico",
-            "message": "Mensaxe",
-            "submit": "Mandar Mensaxe",
-            "submitting": "Mandando...",
-            "success_title": "¡Mensaxe Mandáu!",
-            "success_message": "Gracies por contautar con nós. Respondémoste lo antes posible.",
-            "send_another": "Mandar otru mensaxe",
-            "message_placeholder": "¿En qué podemos ayudate?"
-        },
-        "info": {
-            "address": "Direición",
-            "phone": "Teléfanu",
-            "email": "Email"
-        }
     },
     "ServicesPage": {
         "title": "Os Nossos Servicios",
