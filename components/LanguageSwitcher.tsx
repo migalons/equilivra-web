@@ -40,7 +40,7 @@ export default function LanguageSwitcher() {
 
     const AsturiasFlag = () => (
         <img
-            src="/images/asturias.png"
+            src="/equilivra-web/images/asturias.png"
             alt="Asturias"
             className="w-5 h-auto object-contain rounded-[1px]"
         />
