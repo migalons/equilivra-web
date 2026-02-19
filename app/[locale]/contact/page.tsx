@@ -1,5 +1,5 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import ContactForm from '@/components/ContactForm';
 
 export default async function Contact({ params }: { params: Promise<{ locale: string }> }) {
@@ -27,15 +27,7 @@ export default async function Contact({ params }: { params: Promise<{ locale: st
                                 <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300 whitespace-pre-line">{t("info.address_value")}</p>
                             </div>
                         </div>
-                        <div className="flex gap-4 items-start">
-                            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-600">
-                                <Phone className="h-6 w-6 text-white" aria-hidden="true" />
-                            </div>
-                            <div>
-                                <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">{t("info.phone")}</h3>
-                                <p className="mt-2 leading-7 text-gray-600 dark:text-gray-300">{t("info.phone_value")}</p>
-                            </div>
-                        </div>
+
                         <div className="flex gap-4 items-start">
                             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-600">
                                 <Mail className="h-6 w-6 text-white" aria-hidden="true" />
