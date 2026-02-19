@@ -51,12 +51,12 @@ export default function Header() {
                     <Link href="/" className="flex items-center gap-2">
                         <div className="flex items-center">
                             <img
-                                src="/equilivra-web/images/logo-horizontal-light.png"
+                                src="/images/logo-horizontal-light.png"
                                 alt="Equilivra Logo"
                                 className="h-12 w-auto object-contain theme-logo-light"
                             />
                             <img
-                                src="/equilivra-web/images/logo-horizontal-dark.png"
+                                src="/images/logo-horizontal-dark.png"
                                 alt="Equilivra Logo"
                                 className="h-12 w-auto object-contain theme-logo-dark"
                             />

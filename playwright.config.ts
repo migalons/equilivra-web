@@ -18,7 +18,7 @@ export default defineConfig({
     /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
     use: {
         /* Base URL to use in actions like `await page.goto('/')`. */
-        baseURL: 'http://localhost:3000/equilivra-web/',
+        baseURL: 'http://localhost:3000/',
 
         /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
         trace: 'on',
@@ -36,8 +36,8 @@ export default defineConfig({
 
     /* Run your local dev server before starting the tests */
     webServer: {
-        command: 'mkdir -p test-out/equilivra-web && cp -r out/* test-out/equilivra-web/ && npx serve test-out -p 3000',
-        url: 'http://localhost:3000/equilivra-web',
+        command: 'npx serve out -p 3000',
+        url: 'http://localhost:3000',
         reuseExistingServer: !process.env.CI,
         timeout: 60000,
     },
