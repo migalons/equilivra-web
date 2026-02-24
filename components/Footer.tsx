@@ -38,7 +38,6 @@ export default function Footer() {
                             <li>C/ Luis Carlos Vázquez 16, oficina izquierda</li>
                             <li>28043 Madrid</li>
                             <li>info@equilivra.com</li>
-                            <li>+34 91.039.45.59</li>
                         </ul>
                     </div>
                 </div>
