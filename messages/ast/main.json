@@ -9,6 +9,14 @@
         "about": "Sobre Nós",
         "contact": "Contactu"
     },
+    "Footer": {
+        "tagline": "Inxeniería de Valor Añadíu en Infraestruturas Críticas.",
+        "cta": {
+            "title": "¿Tas planiando un proyeutu d'infraestrutura crítica?",
+            "subtitle": "Falemos de commissioning, project management ou eficiencia enerxética.",
+            "button": "Contáctanos"
+        }
+    },
     "Hero": {
         "title": "Inxeniería de Valor Añadíu en Infraestruturas Críticas",
         "subtitle": "Más de 15 anos d'esperiencia no sector del Data Center, garantizando a continuidá operativa y amenorgando riesgos.",

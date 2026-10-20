@@ -119,7 +119,7 @@ export default function ContactForm() {
                 <button
                     type="submit"
                     disabled={status === "SUBMITTING"}
-                    className="flex justify-center items-center gap-2 rounded-lg bg-red-600 px-4 py-3 text-base font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="flex justify-center items-center gap-2 rounded-lg bg-red-700 px-4 py-3 text-base font-semibold text-white shadow-sm hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                     {status === "SUBMITTING" ? (
                         <>

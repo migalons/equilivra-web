@@ -17,7 +17,11 @@
             "address": "Direición",
             "email": "Email",
             "address_value": "C/ Luis Carlos Vázquez 16, oficina izquierda\n28043 Madrid",
-            "email_value": "info@equilivra.com"
-        }
+            "email_value": "info@equilivra.com",
+            "channels": "Canales"
+        },
+        "social": {
+            "linkedin_url": "https://linkedin.com/company/equilivra",
+            "twitter_url": "https://twitter.com/equilivra"        }
     }
 }

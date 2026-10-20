@@ -9,6 +9,14 @@
         "about": "Sobre Nós",
         "contact": "Contato"
     },
+    "Footer": {
+        "tagline": "Engenharia de Valor Agregado em Infraestruturas Críticas.",
+        "cta": {
+            "title": "Está a planear um projeto de infraestrutura crítica?",
+            "subtitle": "Vamos falar sobre commissioning, project management ou eficiência energética.",
+            "button": "Contate-nos"
+        }
+    },
     "Hero": {
         "title": "Engenharia de Valor Agregado em Infraestruturas Críticas",
         "subtitle": "Mais de 15 anos de experiência no setor de Data Center, garantindo a continuidade operacional e minimizando riscos.",

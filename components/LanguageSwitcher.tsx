@@ -8,10 +8,10 @@ import { ChevronDown } from "lucide-react";
 import clsx from "clsx";
 
 const languages = [
-    { code: "es", label: "ES", flag: "🇪🇸" },
-    { code: "en", label: "EN", flag: "🇬🇧" },
-    { code: "pt", label: "PT", flag: "🇵🇹" },
-    { code: "ast", label: "AST", flag: null }, // Asturias custom
+    { code: "es", label: "ES" },
+    { code: "en", label: "EN" },
+    { code: "pt", label: "PT" },
+    { code: "ast", label: "AST" },
 ];
 
 export default function LanguageSwitcher() {
@@ -38,31 +38,16 @@ export default function LanguageSwitcher() {
         setIsOpen(false);
     };
 
-    const AsturiasFlag = () => (
-        <img
-            src="/images/asturias.png"
-            alt="Asturias"
-            className="w-5 h-auto object-contain rounded-[1px]"
-        />
-    );
-
     return (
         <div className="relative" ref={dropdownRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center gap-2 py-2 px-3 rounded-lg hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors text-sm font-medium text-gray-700 dark:text-gray-200"
+                className="flex items-center gap-1.5 py-2 px-3 rounded-lg hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors text-xs font-medium text-gray-700 dark:text-gray-200"
                 aria-haspopup="listbox"
                 aria-expanded={isOpen}
             >
-                <span className="flex items-center gap-1.5 min-w-[40px]">
-                    {currentLanguage.flag ? (
-                        <span className="text-base leading-none select-none">{currentLanguage.flag}</span>
-                    ) : (
-                        <AsturiasFlag />
-                    )}
-                    <span>{currentLanguage.label}</span>
-                </span>
-                <ChevronDown className={clsx("w-4 h-4 transition-transform", isOpen && "rotate-180")} />
+                <span>{currentLanguage.label}</span>
+                <ChevronDown className={clsx("w-3.5 h-3.5 transition-transform", isOpen && "rotate-180")} />
             </button>
 
             <AnimatePresence>
@@ -88,14 +73,7 @@ export default function LanguageSwitcher() {
                                     role="option"
                                     aria-selected={locale === lang.code}
                                 >
-                                    <span className="flex items-center gap-2">
-                                        {lang.flag ? (
-                                            <span className="text-base leading-none select-none">{lang.flag}</span>
-                                        ) : (
-                                            <AsturiasFlag />
-                                        )}
-                                        <span>{lang.label}</span>
-                                    </span>
+                                    <span>{lang.label}</span>
                                 </button>
                             </li>
                         ))}

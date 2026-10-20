@@ -9,6 +9,14 @@
         "about": "About Us",
         "contact": "Contact"
     },
+    "Footer": {
+        "tagline": "Value-Added Engineering in Critical Infrastructures.",
+        "cta": {
+            "title": "Planning a critical-infrastructure project?",
+            "subtitle": "Let's talk about commissioning, project management, or energy efficiency.",
+            "button": "Contact us"
+        }
+    },
     "Hero": {
         "title": "Value-Added Engineering in Critical Infrastructures",
         "subtitle": "Over 15 years of experience in the Data Center sector, ensuring operational continuity and minimizing risks.",
